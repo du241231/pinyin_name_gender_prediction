@@ -17,7 +17,7 @@ The code has been successfully tested in the following environment.
 ## Getting Started
 ### Prepare your data
 For model training, both Pinyin and Chinese characters are needed. For model inference, only Pinyin is necessary.
-### Training CHGAT
+### Training Model
 Please run following commands for training.
 ```python
 python pinyin_mtl_kd.py
