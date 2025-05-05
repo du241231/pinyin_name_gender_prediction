@@ -266,6 +266,7 @@ if __name__ == '__main__':
             test_pre.extend(test_outputs)
     print(classification_report(test_label, test_pre, digits=6))
 
+    # We report the results of the model with the lowest loss on the validation set in the paper
     total = len(test_label)
     m_state_dict = torch.load('model/temp.bin')
     best_model = BertClassfication().to(device)
